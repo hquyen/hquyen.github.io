@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-primary .badge {
-  color: #fed136;
+  color: #5883FC;
   background-color: white;
 }
 
@@ -125,26 +125,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-xl.disabled, .btn-xl[disabled], fieldset[disabled] .btn-xl, .btn-xl.disabled:hover, .btn-xl[disabled]:hover, fieldset[disabled] .btn-xl:hover, .btn-xl.disabled:focus, .btn-xl[disabled]:focus, fieldset[disabled] .btn-xl:focus, .btn-xl.disabled:active, .btn-xl[disabled]:active, fieldset[disabled] .btn-xl:active, .btn-xl.disabled.active, .btn-xl[disabled].active, fieldset[disabled] .btn-xl.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #5883FC;
+  border-color: #5883FC;
 }
 
 .btn-xl .badge {
-  color: #fed136;
+  color: #5883FC;
   background-color: white;
 }
 
 .navbar-custom {
-  background-color: #222222;
+  background-color: #23437C;
   border-color: transparent;
 }
 
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: #fff;
+  box-shadow: 1 1 1 #bbb;
 }
 
 .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #fff;
+  box-shadow: 1 1 1 #bbb;
 }
 
 .navbar-custom .navbar-collapse {
@@ -152,15 +154,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #5883FC;
+  border-color: #5883FC;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
 }
 
 .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #5883FC;
 }
 
 .navbar-custom .nav li a {
@@ -171,19 +173,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #fff;
+  box-shadow: 1 1 1 #bbb;
   outline: none;
 }
 
 .navbar-custom .navbar-nav>.active>a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #5883FC;
 }
 
 .navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #5883FC;
 }
 
 @media (min-width: 768px) {
@@ -208,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #23437C;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
